@@ -44,7 +44,7 @@ const pAequorFactory = (specimenNum, dna) => {
       // Arithmetic to calculate same base percentage
       count /= 15;
       count *= 100;
-      // Use .parseFloat and .toFixed - do not yet understand how these work
+      // Use .parseFloat and .toFixed
       console.log(`The two strands are ${Number.parseFloat(count).toFixed(0)}% the same.`);
       return `The count value is: ${count}`; // Have to add this or output will show undefined
     },
